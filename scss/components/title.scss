@@ -1,0 +1,18 @@
+.title{
+    font-size: 40px;
+    color: #F2AE30;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    position: relative;
+    &::before{
+        content: "";
+        position: absolute;
+        width: 22px;
+        height: 22px;
+        background-color: $brown-base;
+        border-radius: 8px 100% 8px 8px;
+        z-index: -1;
+        top: 19px;
+    }
+}

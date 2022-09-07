@@ -1,0 +1,18 @@
+.your_barber{
+    margin-top: 60px;
+    .container{
+        display: flex;
+        .photo_barber{
+            width: 550px;
+            height: 825px;
+            border-radius: 8px;
+        }
+        .text_barber{
+            .content_barber{
+                color: #828282;
+                text-align: justify;
+                margin: 25px 0 0 70px;
+            }
+        }
+    }
+}
