@@ -1,0 +1,51 @@
+.your_barber{
+    margin-top: 60px;
+    scroll-margin-top: 100vh;
+    .container{
+        display: flex;
+        .photo_barber{
+            width: 50%;
+            img{
+                border-radius: 8px;
+            }
+        }
+        .text_barber{
+            width: 50%;
+            .content_barber{
+                color: #828282;
+                text-align: justify;
+                margin: 25px 0 0 70px;
+            }
+        }
+    }
+}
+
+@media(max-width: 950px){
+    .your_barber{
+        margin-top: 30px;
+        .container{
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+            .text_barber{
+                width: 100%;
+                .content_barber{
+                    margin: 25px 0;
+                }
+            }
+            .photo_barber{
+                width: 80%;
+            }
+        }
+    }
+}
+
+@media(max-width: 730px){
+    .your_barber{
+        .container{
+            .photo_barber{
+                width: 100%;
+            }
+        }
+    }
+}

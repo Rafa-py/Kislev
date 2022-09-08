@@ -1,11 +1,17 @@
+//Global
 @import "global/container.scss";
 @import "global/reset.scss";
 @import "global/fonts.scss";
-@import "components/banner.scss";
 
+//Componentes
 @import "components/button.scss";
-@import "components/separator.scss";
-@import "components/your_barber.scss";
 @import "components/title.scss";
+
+//Sections
+@import "sections/banner.scss";
+@import "sections/separator.scss";
+@import "sections/your_barber.scss";
+@import "sections/services.scss";
+@import "sections/gallery.scss";
 
 
