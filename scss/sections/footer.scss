@@ -1,0 +1,60 @@
+@import "../global/variables.scss";
+
+.footer{
+    background: $brown-base;
+    width: 100vw;
+    height: 20vh;
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        .phone_and_mail{
+            display: flex;
+            justify-content: space-between;
+            gap: 50px;
+            span a{
+                color: white;
+            }
+        }
+        .social_media ul{
+            display: flex;
+            justify-content: space-between;
+            gap: 15px;
+            align-items: center;
+        }
+    }
+}
+
+@media(max-width: 1030px){
+    .footer{
+        .container{
+            .phone_and_mail{
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+            }
+        }
+    }
+}
+
+@media(max-width: 860px){
+    @media(max-width: 1030px){
+        .footer{
+            height: 35vh;
+            .container{
+                padding-top: 20px;
+                flex-direction: column-reverse;
+                .phone_and_mail{
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 10px;
+                    span p{
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
